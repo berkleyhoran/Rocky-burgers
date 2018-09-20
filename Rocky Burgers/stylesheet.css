@@ -118,34 +118,38 @@ cursor: pointer;
   transition: background-color .5s ease-out;
 }
 .fooditem{
+    border:2px solid black;
+    font-size:10px;
     width:300px;
-    height:300px;
+    height:150px;
     background-color:white;
     margin-top:80px;
-    margin-right:40px;
-    margin-left:40px;
 }
 #foodwrapper{
+    flex-wrap: wrap;
     display:flex;
+    justify-content: space-evenly;
 }
 #location{
+    margin-left:0px;
+    justify-content: space-around;
     display:grid;
     grid-template-columns: 200px 200px;
     grid-template-rows: 200px 200px;
     text-align:center;
-    margin:0 auto;
-    margin-left:27%s;
-    margin-right:20%;;
 }
 #maps{
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
     margin:0 auto;
     margin-right:30%;
     margin-left:30%;
 }
 .place1, .place2, .place3,.place4{
+    font-size:10px;
     width:200px;
     height:200px;
-    margin-left:250%;
 }
 .place1{
     grid-column:1;
@@ -162,4 +166,20 @@ cursor: pointer;
 .place4{
     grid-row:1;
     grid-column:2;
+}
+#content{
+    visibility: hidden;
+}
+#content2{
+    visibility: hidden;
+}
+.subscribeform{
+    display:flex;
+    flex-direction:column;
+}
+#form{
+
+}
+#formtext{
+
 }

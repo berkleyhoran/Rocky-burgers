@@ -3,7 +3,7 @@
 		<head>
 			<link rel="stylesheet" type="text/css" href="stylesheet.css">
 			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-			<script type="text/javascript" src="javascript.js"></script>
+			
 		</head>
 	<body>
 		<div id="main">
@@ -14,7 +14,25 @@
 					<button onclick="location.href='locations.html';" class="navelem">Locations</button>
 					<button class="navelem">FAQ</button>
 					<button onclick="location.href='subscribe.html';" class="navelem">Subscribe</button>
+					<button onclick="location.href='jobs.html';" class="navelem">Jobs</button>
 			</div>
+				<div id="faqwrapper">
+					<strong><a id="clickable" onclick="reveal();">Why is your Rockey Burger So Expensive?</a></strong>
+					<p id="content">
+					
+					We focus on making meals with thebest and freshest ingredients, like humanely-raised beef that is ground fresh each day, organic chicken, and Rockey Family Dairy's organic cream for our ice cream cones, sundaes and shakes. Our commitment to freshnessand quality means higher prices than you'd find at traditional fast-food burger chains. It also means food that tastes way better — because, well, it is.
+					
+					
+					</p>
+					<strong><a id="clickable" onclick="reveal2();">Where does your beef come from?</a></strong>
+					<p id="content2">
+					
+					We source our humanely-raised, vegetarian-fed beef from local, family-owned ranches. We use an 85% to 15% protein to fat blend, a mixture of the lean protein and the marbling found on in a cut of steak for our ground beef. The mixture is ground daily, and thus, our burgers taste so amazing.
+					
+					
+					</p>
+				</div>
+
 		
 			<div id="footer">
 				<button onclick="location.href='http://www.twitter.com/keyburgers';" class="footelem">Twitter</button>
@@ -24,5 +42,15 @@
 
 		</div>
 	</body>
+	<script type="text/javascript">
+	
+	function reveal(){
+    	document.getElementById('content').style.visibility = "visible";
+	}
+	function reveal2(){
+    	document.getElementById('content2').style.visibility = "visible";
+	}
+	
+	</script>
 
 </html>
