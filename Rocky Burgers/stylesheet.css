@@ -173,13 +173,37 @@ cursor: pointer;
 #content2{
     visibility: hidden;
 }
-.subscribeform{
+#subscribeform{
+    margin: 0 auto;
+    width:100%;
+    height:600px;
     display:flex;
+    align-items:center;
     flex-direction:column;
+    justify-content: center;
 }
-#form{
-
+.form{
+    width:100px;
+    float:right;
 }
-#formtext{
-
+.formtext{
+    width:300px;
+}
+#spacer{
+    margin-top:10px;
+    margin-bottom:10px;
+    display:flex;
+    width:100%;
+    justify-content: center;
+    flex-direction: row;
+}
+#submit{
+    margin-top:20px;
+    width:100px;
+    height:50px;
+    background-color: #a7ffa5;
+}
+textarea{
+    float:right;
+    width :100px;
 }
